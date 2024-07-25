@@ -20,6 +20,18 @@ const config = {
   projectName: "RayChen-Docusaurus-Vercel", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -68,11 +80,11 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Learning",
+            label: "Note",
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/RayChen1996",
             label: "GitHub",
             position: "right",
           },
@@ -118,21 +130,21 @@ const config = {
           //     },
           //   ],
           // },
-          {
-            title: "More",
-            items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
-              {
-                label: "GitHub",
-                href: "https://github.com/RayChen1996",
-              },
-            ],
-          },
+          // {
+          //   title: "More",
+          //   items: [
+          //     // {
+          //     //   label: "Blog",
+          //     //   to: "/blog",
+          //     // },
+          //     {
+          //       label: "GitHub",
+          //       href: "https://github.com/RayChen1996",
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Blog, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
