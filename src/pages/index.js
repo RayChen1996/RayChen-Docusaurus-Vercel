@@ -19,6 +19,8 @@ import campImageUrl from "@site/static/img/camp.png";
 import ecommImageUrl from "@site/static/img/ecomm.png";
 import appImageUrl from "@site/static/img/app.png";
 import accessImageUrl from "@site/static/img/access.png";
+import petImageUrl from "@site/static/img/pet.png";
+import hotelImageUrl from "@site/static/img/hotel.png";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -90,6 +92,34 @@ export default function Home() {
                     target="_blank"
                   >
                     專案連結
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="card bg-white  w-96 shadow-xl">
+              <figure>
+                <img src={petImageUrl} alt="Shoes" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">大型寵物服務網</h2>
+                <div className="card-actions justify-end">
+                  <a href="https://next-petpet-web.vercel.app/" target="_blank">
+                    網站連結
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="card bg-white  w-96 shadow-xl">
+              <figure>
+                <img src={hotelImageUrl} alt="Shoes" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">旅館訂房網</h2>
+                <div className="card-actions justify-end">
+                  <a href="https://hotel-web-three.vercel.app/" target="_blank">
+                    網站連結
                   </a>
                 </div>
               </div>
