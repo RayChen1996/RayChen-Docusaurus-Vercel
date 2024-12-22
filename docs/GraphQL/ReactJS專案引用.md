@@ -1,8 +1,12 @@
+---
+title: React 專案引用 Apollo Client
+---
+
 資料夾結構
 ![alt text](image.png)
 client.ts
 
-```
+```js
 import { ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
@@ -18,7 +22,6 @@ const httpLink = createHttpLink({
 const authLink = setContext((_, { headers }) => {
   const token = useTokenStore.getState().token;
   const authorization = token ? `Bearer ${token}` : "";
-
 
   return {
     headers: {
@@ -43,8 +46,6 @@ const cache = new InMemoryCache({
         points: offsetLimitPagination(["type", "latest"]),
       },
     },
-
-
   },
 });
 
@@ -53,5 +54,4 @@ const client = new ApolloClient({
   cache,
 });
 export default client;
-
 ```

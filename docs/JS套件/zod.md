@@ -1,5 +1,8 @@
-```
+---
+title: ZOD
+---
 
+```js
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import type { DefaultValues } from "react-hook-form";
@@ -26,5 +29,4 @@ export const defaultValues: DefaultValues<SchemaType> = {
 
 /** - 登入解析器 */
 export const resolver = zodResolver(schema);
-
 ```
