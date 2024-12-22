@@ -1,8 +1,12 @@
+---
+title: Next.js 如何引用Google Font
+---
+
 在專案目錄下建立一個`fonts`資料夾
 ![alt text](image.png)
 新增 `index.ts`檔案
 
-```
+```tsx
 import {
   Noto_Sans_TC,
   Noto_Sans_Mono,
@@ -47,12 +51,11 @@ export const ibarra_real_nova = Ibarra_Real_Nova({
   variable: "--font-ibarra-real-nova",
   display: "swap",
 });
-
 ```
 
 打開 `/app/layout.tsx` ，並編輯以下
 
-```
+```tsx
 import type { Metadata } from "next";
 import "./globals.css";
 import clsx from "clsx";
@@ -92,5 +95,4 @@ export default function RootLayout({
     </html>
   );
 }
-
 ```

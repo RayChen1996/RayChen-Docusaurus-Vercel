@@ -1,6 +1,10 @@
+---
+title: React Native 如何使用SVG
+---
+
 ![alt text](image-3.png)
 
-```
+```tsx
 export const SVG_String_1 = `
 <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="15" cy="15.4395" r="14.75" fill="#FCF8F1" stroke="#81923E" stroke-width="0.5"/>
@@ -11,13 +15,11 @@ export const SVG_String_1 = `
 `;
 ```
 
-```
-import {
-  SVG_String_1,
-} from "@/assets/svgs";
+```tsx
+import { SVG_String_1 } from "@/assets/svgs";
 import { SvgXml } from "react-native-svg";
 ```
 
-```
+```tsx
 <SvgXml width={20} height={20} xml={SVG_String_1} />
 ```

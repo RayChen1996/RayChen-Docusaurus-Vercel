@@ -82,7 +82,7 @@ const config = {
             position: "left",
             label: "Note",
           },
-          // { to: "/blog", label: "Blog", position: "left" },
+          { to: "/about", label: "About", position: "left" },
           {
             href: "https://github.com/RayChen1996",
             label: "GitHub",
