@@ -8,6 +8,8 @@ import churchImageUrl from "@site/static/img/church.png";
 import ticketOrderImageUrl from "@site/static/img/ticketOrder.png";
 import habitImageUrl from "@site/static/img/habit.png";
 import sportmageUrl from "@site/static/img/sport.png";
+import musicmageUrl from "@site/static/img/music.png";
+
 import architecture from "@site/static/img/architecture.png";
 import foodzero from "@site/static/img/foodzero.png";
 
@@ -132,7 +134,7 @@ export default function Home() {
               <div className="card-body">
                 <h2 className="card-title">React 練習 - 運動揪團網</h2>
                 <div className="card-actions justify-end">
-                  <a href="" target="_blank">
+                  <a href="https://next-sport-web.vercel.app/" target="_blank">
                     專案連結
                   </a>
                 </div>
@@ -246,6 +248,15 @@ export default function Home() {
               <div className="card-body">
                 <h2 className="card-title">切版練習 - 甜點電商</h2>
                 <p> </p>
+
+                <div className="card-actions justify-end">
+                  <a
+                    href="https://codingspace.raychen1996.us.kg/ReVue-EComm/"
+                    target="_blank"
+                  >
+                    專案連結
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -275,6 +286,25 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            <div className="card bg-white w-96 shadow-xl">
+              <figure className=" max-h-56">
+                <img src={musicmageUrl} alt="app" className=" object-cover" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">切版練習 - 音樂APP</h2>
+                <p> 練習Expo Cli架構React Native </p>
+                <div className="card-actions justify-end">
+                  <a
+                    href="https://github.com/RayChen1996/react_native_music"
+                    target="_blank"
+                  >
+                    專案連結
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div className="card bg-white w-96 shadow-xl">
               <figure className=" max-h-56">
                 <img src={appImageUrl} alt="app" className=" object-cover" />
@@ -282,6 +312,14 @@ export default function Home() {
               <div className="card-body">
                 <h2 className="card-title">切版練習 - 找餐店APP</h2>
                 <p> 練習React Native技術 </p>
+                <div className="card-actions justify-end">
+                  <a
+                    href="https://github.com/RayChen1996/orderbreakfast"
+                    target="_blank"
+                  >
+                    專案連結
+                  </a>
+                </div>
               </div>
             </div>
 
