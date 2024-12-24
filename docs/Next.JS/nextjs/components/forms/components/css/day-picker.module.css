@@ -1,5 +1,0 @@
-.rdp-root {
-  --rdp-accent-color: oklch(var(--p));
-  --rdp-accent-background-color: oklch(var(--b1));
-  --rdp-font-family: var(--font-noto-sans-tc);
-}

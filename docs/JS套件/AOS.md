@@ -1,5 +1,6 @@
 建立Provider
-```tsx
+
+```jsx
 "use client";
 
 import React, { useEffect } from "react";
@@ -21,11 +22,10 @@ export default function AOSProvider({
 
 ```
 
-
-```tsx
+```jsx
 <AOSProvider>{children}</AOSProvider>
 ```
 
-```tsx
+```jsx
 <div className="relative aspect-[4/3] w-[280px]" data-aos="fade-up">
 ```
