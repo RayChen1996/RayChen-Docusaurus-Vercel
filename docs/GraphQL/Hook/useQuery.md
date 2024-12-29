@@ -1,6 +1,6 @@
-將查詢片段製作成 `Custom Hook` 以便模組化
+將查詢語句製作成 `Custom Hook` 以便模組化
 
-```
+```tsx
 import { useMemo } from "react";
 import { gql, useQuery } from "@apollo/client";
 import { produce } from "immer";
@@ -12,9 +12,7 @@ import { Product } from "../schema/orders";
 
 const QUERY = gql`
   query Product($productId: ID!) {
-    product(id: $productId) {
-       ...
-    }
+     
   }
 `;
 
@@ -43,5 +41,4 @@ const useProduct: UseQueryFunction<Data, Variables> = (options) => {
 };
 
 export default useProduct;
-
 ```

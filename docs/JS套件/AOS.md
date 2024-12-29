@@ -22,10 +22,10 @@ export default function AOSProvider({
 
 ```
 
-```jsx
+```tsx
 <AOSProvider>{children}</AOSProvider>
 ```
 
-```jsx
-<div className="relative aspect-[4/3] w-[280px]" data-aos="fade-up">
+```tsx
+<div data-aos="fade-up" />
 ```
