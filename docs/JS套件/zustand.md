@@ -2,7 +2,7 @@
 title: Zustand
 ---
 
-```tsx showLineNumbers
+```tsx showLineNumbers {39}
 import { createWithEqualityFn } from "zustand/traditional";
 import { persist, createJSONStorage, combine } from "zustand/middleware";
 import { deepEqual } from "fast-equals";
