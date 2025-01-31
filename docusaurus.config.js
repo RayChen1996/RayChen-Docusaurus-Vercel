@@ -70,10 +70,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Ray Chen 1996",
+        title: "Ray.Dev 1996",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/logo-no-background.svg",
         },
         items: [
           {

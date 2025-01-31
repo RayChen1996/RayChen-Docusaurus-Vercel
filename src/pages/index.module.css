@@ -7,6 +7,9 @@
   padding: 4rem 0;
   text-align: center;
   position: relative;
+  height: 350px;
+  background: url("../../static//img/logo-no-background.svg") no-repeat center
+    center;
   overflow: hidden;
 }
 
@@ -20,4 +23,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 200px;
 }
