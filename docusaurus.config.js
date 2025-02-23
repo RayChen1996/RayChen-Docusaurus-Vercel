@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "RayChen's Coding Blog",
   tagline: "",
-  url: "https://RayChen1996.github.io",
-  baseUrl: "/RayChen-Docusaurus-Vercel/",
+  url: "https://ray-chen-docusaurus-vercel.vercel.app/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

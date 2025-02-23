@@ -24,6 +24,7 @@ import appImageUrl from "@site/static/img/app.png";
 import accessImageUrl from "@site/static/img/access.png";
 import petImageUrl from "@site/static/img/pet.png";
 import hotelImageUrl from "@site/static/img/hotel.png";
+import mobileImageUrl from "@site/static/img/mobile.png";
 import styles from "./index.module.css";
 import "aos/dist/aos.css";
 import Aos from "aos";
@@ -47,6 +48,7 @@ function HomepageHeader() {
     </header>
   );
 }
+
 function TitleCompoent() {
   return (
     <section className="my-7 text-3xl font-bold">
@@ -62,7 +64,7 @@ export default function Home() {
       title: "AI虛擬陪伴",
       description: "AI虛擬陪伴",
       imageUrl: aimageUrl,
-      link: "https://ai-parner.vercel.app/",
+      link: "",
       tags: ["React", "Next.js"],
       type: "Web",
       repolink: "https://github.com/RayChen1996/ai_parner",
@@ -139,7 +141,7 @@ export default function Home() {
     {
       title: "Bible APP",
       description: "Bible APP",
-      imageUrl: churchImageUrl,
+      imageUrl: mobileImageUrl,
       tags: ["React", "Expo-Cli"],
       link: "https://github.com/RayChen1996/expo-bible-app",
       repolink: "https://github.com/RayChen1996/expo-bible-app",
@@ -208,7 +210,21 @@ export default function Home() {
       <HomepageHeader />
       <main className="flex flex-col justify-center">
         {/* <HomepageFeatures /> */}
-
+        {/*<div className="mx-auto my-11">
+          <div className="mockup-code">
+            <pre data-prefix="$">
+              <code>F2E</code>
+            </pre>
+            <pre data-prefix=">" className="text-warning">
+              <code>持續學習...</code>
+            </pre>
+          </div>
+        </div>*/}
+        <div className="m-auto">
+          <section className="my-7 text-3xl font-bold">
+            工作經歷 ( Work Experience )
+          </section>
+        </div>
         <TimeLine />
 
         <div className="m-auto">
@@ -224,11 +240,24 @@ export default function Home() {
                 className="card glass indicator relative w-96 shadow-xl"
               >
                 <figure>
-                  <img
-                    src={project.imageUrl}
-                    alt="project"
-                    className="aspect-video"
-                  />
+                  {project.type === "APP" ? (
+                    <div className="mockup-phone">
+                      <div className="camera"></div>
+                      <div className="display">
+                        <img
+                          src={project.imageUrl}
+                          alt="project"
+                          className="aspect-video object-contain"
+                        />
+                      </div>
+                    </div>
+                  ) : (
+                    <img
+                      src={project.imageUrl}
+                      alt="project"
+                      className="aspect-video"
+                    />
+                  )}
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title">{project.title}</h2>
