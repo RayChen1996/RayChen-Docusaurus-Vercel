@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[2655],{9033:e=>{e.exports=JSON.parse('{"title":"JS\u5957\u4ef6","slug":"/category/js\u5957\u4ef6","permalink":"/docs/category/js\u5957\u4ef6","navigation":{"previous":{"title":"input","permalink":"/docs/HTML&CSS&JS/\u6a19\u7c64\u4f7f\u7528/input"},"next":{"title":"AOS","permalink":"/docs/JS\u5957\u4ef6/AOS"}}}')}}]);

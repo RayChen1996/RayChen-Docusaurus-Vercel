@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[2458],{8535:e=>{e.exports=JSON.parse('{"title":"Next.JS","slug":"/category/nextjs","permalink":"/docs/category/nextjs","navigation":{"previous":{"title":"Zustand","permalink":"/docs/JS\u5957\u4ef6/zustand"},"next":{"title":"Image","permalink":"/docs/Next.JS/Image"}}}')}}]);
