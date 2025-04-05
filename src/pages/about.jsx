@@ -27,7 +27,7 @@ export default function About() {
         <a
           target="_blank"
           className="text-2xl text-blue-500 underline"
-          href="https://drive.google.com/file/d/1JLVK4D3MPIVnvMFrYDJzVgk79Vo-PVSB/view"
+          href="https://drive.google.com/file/d/1myTIdft-xWz7ygKBv4Q8z5ScKrxFMcK9/view?usp=sharing"
         >
           履歷連結
         </a>
