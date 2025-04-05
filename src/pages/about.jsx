@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+
 export default function About() {
   return (
     <Layout>
@@ -10,7 +11,7 @@ export default function About() {
           target="_blank"
           className="text-2xl text-blue-500 underline"
         >
-          關於我
+          關於我 GitHub
         </a>
         <p>
           我是一名前端工程師，擁有一年的工作經驗，主要使用 React 和 React
@@ -23,6 +24,13 @@ export default function About() {
           Vue.js to expand my skill set. This space will be used to document
           useful notes and share my learning journey. Nice to meet you!
         </p>
+        <a
+          target="_blank"
+          className="text-2xl text-blue-500 underline"
+          href="https://drive.google.com/file/d/1JLVK4D3MPIVnvMFrYDJzVgk79Vo-PVSB/view"
+        >
+          履歷連結
+        </a>
       </div>
     </Layout>
   );

@@ -20,8 +20,7 @@ import NFTImageUrl from "@site/static/img/NFT.png";
 import glassImageUrl from "@site/static/img/glass.png";
 import campImageUrl from "@site/static/img/camp.png";
 import ecommImageUrl from "@site/static/img/ecomm.png";
-import appImageUrl from "@site/static/img/app.png";
-import accessImageUrl from "@site/static/img/access.png";
+
 import petImageUrl from "@site/static/img/pet.png";
 import hotelImageUrl from "@site/static/img/hotel.png";
 import mobileImageUrl from "@site/static/img/mobile.png";
