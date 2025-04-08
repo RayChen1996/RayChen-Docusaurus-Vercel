@@ -60,14 +60,32 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   const projectList = [
     {
-      title: "AI虛擬陪伴",
-      description: "AI虛擬陪伴",
-      imageUrl: aimageUrl,
-      link: "",
-      tags: ["React", "Next.js"],
+      title: "Node.js實戰專題 - 屋況評估專家網",
+      description: "Node.js實戰專題 - 屋況評估專家網",
+      imageUrl: nodetmageUrl,
+      link: "https://homesecuritypro-web.vercel.app/",
       type: "Web",
-      repolink: "https://github.com/RayChen1996/ai_parner",
+      repolink: "https://github.com/RayChen1996/homesecuritypro-web",
     },
+    {
+      title: "旅館訂房網",
+      description: "旅館訂房網",
+      imageUrl: hotelImageUrl,
+      tags: ["React", "Next.js", "前/後台"],
+      link: "https://hotel-web-three.vercel.app/",
+      type: "Web",
+      repolink: "https://github.com/RayChen1996/hotel-web",
+    },
+
+    {
+      title: "切版專題 - 習慣養成平台",
+      description: "切版專題 - 習慣養成平台",
+      imageUrl: habitImageUrl,
+      link: "https://habit-piggy-next-app.vercel.app/",
+      type: "Web",
+      repolink: "https://github.com/RayChen1996/habit_piggy_next_app",
+    },
+
     {
       title: "Foodzero-Web",
       description: "Foodzero-Web",
@@ -94,15 +112,7 @@ export default function Home() {
       repolink: "https://github.com/RayChen1996/next-petpet-web",
       type: "Web",
     },
-    {
-      title: "旅館訂房網",
-      description: "旅館訂房網",
-      imageUrl: hotelImageUrl,
-      tags: ["React", "Next.js", "前/後台"],
-      link: "https://hotel-web-three.vercel.app/",
-      type: "Web",
-      repolink: "https://github.com/RayChen1996/hotel-web",
-    },
+
     {
       title: "運動揪團網",
       description: "運動揪團網",
@@ -111,22 +121,6 @@ export default function Home() {
       link: "https://next-sport-web.vercel.app/",
       type: "Web",
       repolink: "https://github.com/RayChen1996/Next-sport-web",
-    },
-    {
-      title: "切版專題 - 習慣養成平台",
-      description: "切版專題 - 習慣養成平台",
-      imageUrl: habitImageUrl,
-      link: "https://habit-piggy-next-app.vercel.app/",
-      type: "Web",
-      repolink: "https://github.com/RayChen1996/habit_piggy_next_app",
-    },
-    {
-      title: "Node.js實戰專題 - 屋況評估專家網",
-      description: "Node.js實戰專題 - 屋況評估專家網",
-      imageUrl: nodetmageUrl,
-      link: "https://homesecuritypro-web.vercel.app/",
-      type: "Web",
-      repolink: "https://github.com/RayChen1996/homesecuritypro-web",
     },
 
     {
@@ -195,6 +189,15 @@ export default function Home() {
       type: "Web",
       repolink: "",
       link: "",
+    },
+    {
+      title: "AI虛擬陪伴",
+      description: "AI虛擬陪伴",
+      imageUrl: aimageUrl,
+      link: "",
+      tags: ["React", "Next.js"],
+      type: "Web",
+      repolink: "https://github.com/RayChen1996/ai_parner",
     },
   ];
 
