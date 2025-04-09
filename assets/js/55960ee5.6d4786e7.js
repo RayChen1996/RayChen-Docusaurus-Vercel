@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[4121],{8070:e=>{e.exports=JSON.parse('[{"label":"React","permalink":"/docs/tags/react","count":2},{"label":"hooks","permalink":"/docs/tags/hooks","count":2}]')}}]);
