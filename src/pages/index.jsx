@@ -11,6 +11,8 @@ import sportmageUrl from "@site/static/img/sport.png";
 import musicmageUrl from "@site/static/img/music.png";
 
 import architecture from "@site/static/img/architecture.png";
+import docusur from "@site/static/img/docusur.png";
+
 import foodzero from "@site/static/img/foodzero.png";
 
 import nodetmageUrl from "@site/static/img/node.png";
@@ -198,6 +200,15 @@ export default function Home() {
       tags: ["React", "Next.js"],
       type: "Web",
       repolink: "https://github.com/RayChen1996/ai_parner",
+    },
+    {
+      title: "個人技術筆記部落格",
+      description: "Blog",
+      imageUrl: docusur,
+      link: "https://ray-chen-docusaurus-vercel.vercel.app/",
+      tags: ["React", "Docusaurus"],
+      type: "Web",
+      repolink: "https://github.com/RayChen1996/RayChen-Docusaurus-Vercel",
     },
   ];
 
