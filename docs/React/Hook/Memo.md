@@ -1,5 +1,13 @@
 ---
+id: doc-with-tags2
 title: 優化組件效能 - memo、UseMemo、UseCallback
+tags:
+  - React
+  - hooks
+
+# 用來修改 URL
+slug: /Memo
+sidebar_position: 1
 ---
 
 在 App 組件中，有個val狀態發生變化時 App組件就會重新渲染，但我們不希望`TitleComponent`標題組件也重新被建立一次
