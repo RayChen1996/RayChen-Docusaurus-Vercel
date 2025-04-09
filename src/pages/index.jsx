@@ -62,8 +62,9 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   const projectList = [
     {
-      title: "Node.js實戰專題 - 屋況評估專家網",
-      description: "Node.js實戰專題 - 屋況評估專家網",
+      title: "2024 Node.js實戰專題 - 屋況評估專家網",
+      description: "",
+      tags: ["React", "Next.js", "GraphQL"],
       imageUrl: nodetmageUrl,
       link: "https://homesecuritypro-web.vercel.app/",
       type: "Web",
@@ -71,7 +72,7 @@ export default function Home() {
     },
     {
       title: "旅館訂房網",
-      description: "旅館訂房網",
+      description: "介接旅館訂房API，並使用Next.js 技術",
       imageUrl: hotelImageUrl,
       tags: ["React", "Next.js", "前/後台"],
       link: "https://hotel-web-three.vercel.app/",
@@ -80,8 +81,10 @@ export default function Home() {
     },
 
     {
-      title: "切版專題 - 習慣養成平台",
-      description: "切版專題 - 習慣養成平台",
+      title: "2022 切版專題 - 習慣養成平台",
+      description:
+        "開始學習Next.js第一個專案，想要解決的問題是：如何養成習慣，從一本書：原子習慣中獲得靈感，期望透過平台來幫助使用者養成習慣",
+      tags: ["React", "Next.js"],
       imageUrl: habitImageUrl,
       link: "https://habit-piggy-next-app.vercel.app/",
       type: "Web",
@@ -90,7 +93,7 @@ export default function Home() {
 
     {
       title: "Foodzero-Web",
-      description: "Foodzero-Web",
+      description: "",
       imageUrl: foodzero,
       link: "https://foodzero-web.vercel.app/",
       tags: ["Vue 3", "Nuxt"],
@@ -99,7 +102,7 @@ export default function Home() {
     },
     {
       title: "Architecture-studio-Web",
-      description: "Architecture-studio-Web",
+      description: "",
       imageUrl: architecture,
       link: "https://architecture-studio-nuxt.vercel.app/?vercelToolbarCode=cg8gUzAQHkMPLGf",
       tags: ["Vue 3", "Nuxt"],
@@ -108,8 +111,9 @@ export default function Home() {
     },
     {
       title: "大型寵物服務網",
-      description: "大型寵物服務網",
+      description: "",
       imageUrl: petImageUrl,
+      tags: ["React", "Next.js"],
       link: "https://next-petpet-web.vercel.app/",
       repolink: "https://github.com/RayChen1996/next-petpet-web",
       type: "Web",
@@ -117,7 +121,8 @@ export default function Home() {
 
     {
       title: "運動揪團網",
-      description: "運動揪團網",
+      description:
+        "常常下班後想要運動卻找不到人一起運動，希望這個網站能幫助到您",
       tags: ["React", "Next.js"],
       imageUrl: sportmageUrl,
       link: "https://next-sport-web.vercel.app/",
@@ -126,8 +131,8 @@ export default function Home() {
     },
 
     {
-      title: "教會形象網",
-      description: "切版練習 - 教會形象網",
+      title: "台中種子教會網站",
+      description: "想要藉由這個網站讓更多人認識我們的教會",
       imageUrl: churchImageUrl,
       link: "https://church-web-five.vercel.app/",
       type: "Web",
@@ -135,7 +140,7 @@ export default function Home() {
     },
     {
       title: "Bible APP",
-      description: "Bible APP",
+      description: "幫教會製作的聖經APP，藉此機會練習React Native Expo架構",
       imageUrl: mobileImageUrl,
       tags: ["React", "Expo-Cli"],
       link: "https://github.com/RayChen1996/expo-bible-app",
@@ -143,16 +148,17 @@ export default function Home() {
       type: "APP",
     },
     {
-      title: "切版練習 - 大型訂票網",
-      description: "切版練習 - 大型訂票網",
+      title: "大型訂票網",
+      description: "",
       imageUrl: ticketOrderImageUrl,
       link: "https://ticket-booking-sigma.vercel.app/",
       type: "Web",
       repolink: "https://github.com/RayChen1996/TicketBooking",
     },
     {
-      title: "切版練習 - 甜點電商",
-      description: "切版練習 - 甜點電商",
+      title: "甜點電商網站",
+      description: "",
+      tags: ["Vue", "Vite", "SPA"],
       imageUrl: ecommImageUrl,
       type: "Web",
       repolink: "https://github.com/RayChen1996/ReVue-EComm",
@@ -160,7 +166,7 @@ export default function Home() {
     },
     {
       title: "眼鏡形象官網",
-      description: "眼鏡形象官網",
+      description: "",
       tags: ["React", "Next.js"],
       imageUrl: glassImageUrl,
       repolink: "https://github.com/RayChen1996/glasses-offical-web",
@@ -169,7 +175,7 @@ export default function Home() {
     },
     {
       title: "HexSchool Camp - 部落格網站",
-      description: "HexSchool Camp - 部落格網站",
+      description: "",
       imageUrl: campImageUrl,
       type: "Web",
       link: "",
@@ -177,7 +183,7 @@ export default function Home() {
     },
     {
       title: "旅館訂房網",
-      description: "旅館訂房網",
+      description: "",
       imageUrl: roomImageUrl,
       type: "Web",
       link: "https://codingspace.raychen1996.us.kg/hexschool-TS-Hw/",
@@ -186,7 +192,7 @@ export default function Home() {
     },
     {
       title: "切版練習 - NFT藝術家交易平台",
-      description: "切版練習 - NFT藝術家交易平台",
+      description: "",
       imageUrl: NFTImageUrl,
       type: "Web",
       repolink: "",
@@ -194,7 +200,7 @@ export default function Home() {
     },
     {
       title: "AI虛擬陪伴",
-      description: "AI虛擬陪伴",
+      description: "",
       imageUrl: aimageUrl,
       link: "",
       tags: ["React", "Next.js"],
@@ -203,7 +209,7 @@ export default function Home() {
     },
     {
       title: "個人技術筆記部落格",
-      description: "Blog",
+      description: "",
       imageUrl: docusur,
       link: "https://ray-chen-docusaurus-vercel.vercel.app/",
       tags: ["React", "Docusaurus"],
@@ -274,6 +280,7 @@ export default function Home() {
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title">{project.title}</h2>
+                  <p>{project.description}</p>
                   <div className="flex min-h-5 gap-2">
                     {project.tags &&
                       project.tags.map((tag, index) => (
