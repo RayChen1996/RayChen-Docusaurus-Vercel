@@ -17,6 +17,7 @@ import foodzero from "@site/static/img/foodzero.png";
 
 import nodetmageUrl from "@site/static/img/node.png";
 import aimageUrl from "@site/static/img/ai.png";
+import ITHOMEImageUrl from "@site/static/img/ITHOME.png";
 import roomImageUrl from "@site/static/img/room.png";
 import NFTImageUrl from "@site/static/img/NFT.png";
 import glassImageUrl from "@site/static/img/glass.png";
@@ -69,6 +70,8 @@ export default function Home() {
       link: "https://homesecuritypro-web.vercel.app/",
       type: "Web",
       repolink: "https://github.com/RayChen1996/homesecuritypro-web",
+      slug: "/quake-safety",
+      hasResume: true,
     },
     {
       title: "旅館訂房網",
@@ -78,6 +81,8 @@ export default function Home() {
       link: "https://hotel-web-three.vercel.app/",
       type: "Web",
       repolink: "https://github.com/RayChen1996/hotel-web",
+      slug: "/hotel",
+      hasResume: true,
     },
 
     {
@@ -89,6 +94,8 @@ export default function Home() {
       link: "https://habit-piggy-next-app.vercel.app/",
       type: "Web",
       repolink: "https://github.com/RayChen1996/habit_piggy_next_app",
+      slug: "/habit",
+      hasResume: false,
     },
 
     {
@@ -99,6 +106,8 @@ export default function Home() {
       tags: ["Vue 3", "Nuxt"],
       type: "Web",
       repolink: "https://github.com/RayChen1996/FoodZero",
+      slug: "/foodzero",
+      hasResume: false,
     },
     {
       title: "Architecture-studio-Web",
@@ -108,6 +117,8 @@ export default function Home() {
       tags: ["Vue 3", "Nuxt"],
       repolink: "https://github.com/RayChen1996/architecture_studio_nuxt",
       type: "Web",
+      slug: "/architecture",
+      hasResume: false,
     },
     {
       title: "大型寵物服務網",
@@ -117,6 +128,8 @@ export default function Home() {
       link: "https://next-petpet-web.vercel.app/",
       repolink: "https://github.com/RayChen1996/next-petpet-web",
       type: "Web",
+      slug: "/pet",
+      hasResume: false,
     },
 
     {
@@ -128,6 +141,8 @@ export default function Home() {
       link: "https://next-sport-web.vercel.app/",
       type: "Web",
       repolink: "https://github.com/RayChen1996/Next-sport-web",
+      slug: "/sport",
+      hasResume: false,
     },
 
     {
@@ -137,6 +152,9 @@ export default function Home() {
       link: "https://church-web-five.vercel.app/",
       type: "Web",
       repolink: "https://github.com/RayChen1996/church-web",
+      slug: "/church",
+      tags: ["React", "Next.js"],
+      hasResume: false,
     },
     {
       title: "Bible APP",
@@ -146,6 +164,8 @@ export default function Home() {
       link: "https://github.com/RayChen1996/expo-bible-app",
       repolink: "https://github.com/RayChen1996/expo-bible-app",
       type: "APP",
+      slug: "/bible",
+      hasResume: false,
     },
     {
       title: "大型訂票網",
@@ -154,6 +174,9 @@ export default function Home() {
       link: "https://ticket-booking-sigma.vercel.app/",
       type: "Web",
       repolink: "https://github.com/RayChen1996/TicketBooking",
+      slug: "/ticket",
+      tags: ["React", "Next.js"],
+      hasResume: false,
     },
     {
       title: "甜點電商網站",
@@ -163,6 +186,8 @@ export default function Home() {
       type: "Web",
       repolink: "https://github.com/RayChen1996/ReVue-EComm",
       link: "https://codingspace.raychen1996.us.kg/ReVue-EComm/",
+      slug: "/ecomm",
+      hasResume: false,
     },
     {
       title: "眼鏡形象官網",
@@ -172,6 +197,8 @@ export default function Home() {
       repolink: "https://github.com/RayChen1996/glasses-offical-web",
       type: "Web",
       link: "",
+      slug: "/glasses",
+      hasResume: false,
     },
     {
       title: "HexSchool Camp - 部落格網站",
@@ -180,6 +207,8 @@ export default function Home() {
       type: "Web",
       link: "",
       repolink: "",
+      slug: "/camp",
+      hasResume: false,
     },
     {
       title: "旅館訂房網",
@@ -189,6 +218,8 @@ export default function Home() {
       link: "https://codingspace.raychen1996.us.kg/hexschool-TS-Hw/",
       repolink: "https://github.com/RayChen1996/RoomsOrder",
       tags: ["Vue", "TypeScript"],
+      slug: "/room",
+      hasResume: false,
     },
     {
       title: "切版練習 - NFT藝術家交易平台",
@@ -197,6 +228,8 @@ export default function Home() {
       type: "Web",
       repolink: "",
       link: "",
+      slug: "/nft",
+      hasResume: false,
     },
     {
       title: "AI虛擬陪伴",
@@ -206,6 +239,8 @@ export default function Home() {
       tags: ["React", "Next.js"],
       type: "Web",
       repolink: "https://github.com/RayChen1996/ai_parner",
+      slug: "/ai",
+      hasResume: false,
     },
     {
       title: "個人技術筆記部落格",
@@ -215,6 +250,19 @@ export default function Home() {
       tags: ["React", "Docusaurus"],
       type: "Web",
       repolink: "https://github.com/RayChen1996/RayChen-Docusaurus-Vercel",
+      slug: "/docusur",
+      hasResume: false,
+    },
+    {
+      title: "2024 iThome 鐵人賽 佛心分享-IT 人自學之術 鐵人鍊成",
+      description: "",
+      imageUrl: ITHOMEImageUrl,
+      link: "https://ray-chen-docusaurus-vercel.vercel.app/",
+      tags: [],
+      type: "Web",
+      repolink: "",
+      slug: "/ithome",
+      hasResume: false,
     },
   ];
 
@@ -315,6 +363,11 @@ export default function Home() {
                       觀看連結
                     </a>
                   </div>
+                  {project.hasResume && (
+                    <Link className="button button--primary" to={project.slug}>
+                      查看我的專案簡歷
+                    </Link>
+                  )}
                 </div>
                 {project.type === "APP" && (
                   <span className="badge badge-accent badge-lg absolute right-0 top-2 z-50 h-10 w-20 text-white">
