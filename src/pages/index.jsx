@@ -257,10 +257,10 @@ export default function Home() {
       title: "2024 iThome 鐵人賽 佛心分享-IT 人自學之術 鐵人鍊成",
       description: "",
       imageUrl: ITHOMEImageUrl,
-      link: "https://ray-chen-docusaurus-vercel.vercel.app/",
-      tags: [],
+      link: "https://ithelp.ithome.com.tw/users/20132295/ironman",
+      tags: ["ITHelp", "鐵人賽"],
       type: "Web",
-      repolink: "",
+      repolink: "https://ithelp.ithome.com.tw/users/20132295/ironman",
       slug: "/ithome",
       hasResume: false,
     },
@@ -276,17 +276,6 @@ export default function Home() {
     <Layout title={`Hello from ${siteConfig.title}`} description="">
       <HomepageHeader />
       <main className="flex flex-col justify-center">
-        {/* <HomepageFeatures /> */}
-        {/*<div className="mx-auto my-11">
-          <div className="mockup-code">
-            <pre data-prefix="$">
-              <code>F2E</code>
-            </pre>
-            <pre data-prefix=">" className="text-warning">
-              <code>持續學習...</code>
-            </pre>
-          </div>
-        </div>*/}
         <div className="m-auto">
           <section className="my-7 text-3xl font-bold">
             工作經歷 ( Work Experience )
@@ -306,7 +295,7 @@ export default function Home() {
                 key={index}
                 className="card glass indicator relative w-96 shadow-xl"
               >
-                <figure>
+                <figure className="cursor-pointer overflow-hidden transition-transform duration-300 hover:scale-105">
                   {project.type === "APP" ? (
                     <div className="mockup-phone">
                       <div className="camera"></div>
