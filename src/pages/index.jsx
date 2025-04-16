@@ -185,7 +185,7 @@ export default function Home() {
       imageUrl: ecommImageUrl,
       type: "Web",
       repolink: "https://github.com/RayChen1996/ReVue-EComm",
-      link: "https://github.com/RayChen1996/ReVue-EComm/",
+      link: "https://raychen1996.github.io/ReVue-EComm/",
       slug: "/ecomm",
       hasResume: false,
     },
