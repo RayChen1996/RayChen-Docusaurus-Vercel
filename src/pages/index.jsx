@@ -11,6 +11,7 @@ import sportmageUrl from "@site/static/img/sport.png";
 import musicmageUrl from "@site/static/img/music.png";
 
 import architecture from "@site/static/img/architecture.png";
+import github from "@site/static/img/github.png";
 import docusur from "@site/static/img/docusur.png";
 
 import foodzero from "@site/static/img/foodzero.png";
@@ -261,6 +262,17 @@ export default function Home() {
       tags: ["ITHelp", "鐵人賽"],
       type: "Web",
       repolink: "https://ithelp.ithome.com.tw/users/20132295/ironman",
+      slug: "/ithome",
+      hasResume: false,
+    },
+    {
+      title: "Github 主頁經營",
+      description: "",
+      imageUrl: github,
+      link: "",
+      tags: ["GitHub"],
+      type: "Web",
+      repolink: "",
       slug: "/ithome",
       hasResume: false,
     },
