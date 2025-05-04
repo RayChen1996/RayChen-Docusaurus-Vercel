@@ -18,6 +18,7 @@ import foodzero from "@site/static/img/foodzero.png";
 
 import nodetmageUrl from "@site/static/img/node.png";
 import aimageUrl from "@site/static/img/ai.png";
+import camp25ImageUrl from "@site/static/img/250504.png";
 import ITHOMEImageUrl from "@site/static/img/ITHOME.png";
 import roomImageUrl from "@site/static/img/room.png";
 import NFTImageUrl from "@site/static/img/NFT.png";
@@ -243,6 +244,19 @@ export default function Home() {
       slug: "/ai",
       hasResume: false,
     },
+
+    {
+      title: "2025 六角體驗營 - 部落格網站",
+      description: "",
+      imageUrl: camp25ImageUrl,
+      link: "https://camp-2025.vercel.app/",
+      tags: ["Vue", "Nuxt.js"],
+      type: "Web",
+      repolink: "https://github.com/RayChen1996/camp-2025",
+      slug: "",
+      hasResume: false,
+    },
+
     {
       title: "個人技術筆記部落格",
       description: "",
