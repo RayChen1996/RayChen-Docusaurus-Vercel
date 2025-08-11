@@ -29,15 +29,25 @@ export default function About() {
           where I’ll be sharing useful development notes and personal learning
           insights. Nice to meet you all!
         </p>
+        <div className="mb-6 flex flex-col items-start gap-4">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl text-blue-600 underline"
+            href="https://drive.google.com/file/d/1myTIdft-xWz7ygKBv4Q8z5ScKrxFMcK9/view?usp=sharing"
+          >
+            履歷連結
+          </a>
 
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xl text-blue-600 underline"
-          href="https://drive.google.com/file/d/1myTIdft-xWz7ygKBv4Q8z5ScKrxFMcK9/view?usp=sharing"
-        >
-          履歷連結
-        </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl text-blue-600 underline"
+            href="https://drive.google.com/file/d/1H-Ka60rFqQGz1pdTeLWRrT5294xIJ6sp/view?usp=sharing"
+          >
+            履歷CV
+          </a>
+        </div>
       </div>
     </Layout>
   );

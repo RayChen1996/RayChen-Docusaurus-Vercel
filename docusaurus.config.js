@@ -84,6 +84,11 @@ const config = {
           },
           { to: "/about", label: "About", position: "left" },
           {
+            href: "https://www.cake.me/me/ray-chen-40de06",
+            label: "CakeResume",
+            position: "right",
+          },
+          {
             href: "https://github.com/RayChen1996",
             label: "GitHub",
             position: "right",
