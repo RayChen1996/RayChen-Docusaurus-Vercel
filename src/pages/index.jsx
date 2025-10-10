@@ -15,6 +15,7 @@ import github from "@site/static/img/github.png";
 import docusur from "@site/static/img/docusur.png";
 
 import foodzero from "@site/static/img/foodzero.png";
+import aapd from "@site/static/img/aapd.png";
 
 import nodetmageUrl from "@site/static/img/node.png";
 import aimageUrl from "@site/static/img/ai.png";
@@ -64,6 +65,17 @@ function TitleCompoent() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   const projectList = [
+    {
+      title: "2025 AAPD X 六角學院 | 設計前端產品研發營 ",
+      description: "",
+      tags: ["HTML", "SCSS", "JavaScript"],
+      imageUrl: aapd,
+      link: "https://raychen1996.github.io/eaterhood-teams",
+      type: "APP",
+      repolink: "https://github.com/RayChen1996/eaterhood-teams",
+      slug: "",
+      hasResume: true,
+    },
     {
       title: "2024 Node.js實戰專題 - 屋況評估專家網",
       description: "",
