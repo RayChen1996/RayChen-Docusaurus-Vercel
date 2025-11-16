@@ -477,8 +477,8 @@ const TimeLine = memo(function TimeLine() {
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic">2024~</time>
-            <div className="text-lg font-black">接案公司</div>
+            <time className="font-mono italic">2023/11~2025/06</time>
+            <div className="text-lg font-black">羚煜股份有限公司</div>
           </div>
         </li>
       </ul>

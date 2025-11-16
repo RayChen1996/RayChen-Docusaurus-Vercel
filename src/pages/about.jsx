@@ -7,19 +7,10 @@ export default function About() {
       <div className="mx-auto max-w-3xl px-6 py-8 text-left">
         <h1 className="mb-4 text-3xl font-bold">About Me</h1>
 
-        <a
-          href="https://github.com/RayChen1996"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mb-4 block text-xl text-blue-600 underline"
-        >
-          關於我 GitHub
-        </a>
-
         <p className="mb-4">
-          嗨大家好，我是一名前端工程師，擁有一年工作經驗，主要使用 React 和
+          嗨大家好，我是一名前端工程師，擁有六年以上工作經驗，主要使用 React 和
           React Native。平時利用下班時間自學
-          Vue.js，持續精進前端技能。這裡將用來記錄實用的開發筆記與學習心得。很高興認識大家！
+          Vue.js，持續精進前端技能。這裡將用來記錄實用的開發筆記與學習心得。
         </p>
 
         <p className="mb-6">
